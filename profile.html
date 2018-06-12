@@ -1,0 +1,82 @@
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#myprofile").click(function(){
+        $("#info").slideDown("slow");
+        
+    });
+});
+
+</script>
+
+
+<style> 
+
+ #myprofile {
+    padding: 5px;
+    text-align: center;
+    background-color:Tomato;
+    border: solid 1px #c3c3c3;
+}
+
+#info {
+    padding:2px;
+    display: none;
+    background-color:hsl(0, 0%, 94%);
+    border: solid 1px #c3c3c3;
+}
+
+#bold{
+	font-size: 150%;
+	font-family:Baskerville Old Face;
+	color:DodgerBlue;
+}
+
+#p{
+	padding:4px;
+	font-size:130%;
+	font-family: Lucida Calligraphy;
+	color: Violet;
+}
+
+#h{
+	padding:10px;
+	font-size: 170%;
+	font-family: Georgia;
+	color: Lime;
+}
+
+#i{
+	font-size: 140%;
+	font-family: Times New Roman;
+
+}
+
+
+	
+</style>
+</head>
+<body>
+
+<div id="myprofile"><button id="color">MY PROFILE</button></div>
+<div id="info">
+<p> <img src='amrit.jpg' alt='no image found' width="300" height="200"> </p>
+<p><h1 id="bold">Name</h1><h2 id="p"> Amritpal Singh</h2></p>
+<p><h1 id="bold">Student ID</h1><h2 id="p"> C0707077</h2></p>
+<p><h1 id="bold">Current Programm</h1><h2 id="p"> Computer Programming</h2></p>
+
+
+<h3 id="h">INTERESTS</h3>
+	<p><i id="i">>> Playing Football and Cricket</i></p>
+	<p><i id="i">>> Reading Books</i></p>
+	<p><i id="i">>> Loves to learn new things</i></p>
+</div>
+	
+
+	
+</body>
+</html>
